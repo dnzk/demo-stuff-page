@@ -500,6 +500,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -511,14 +512,11 @@ body {
   .background-image.background-image__one {
     background-image: url("images/background-one.jpg"); }
   .background-image.background-image__two {
-    background-image: url("images/background-two.jpg");
-    background-size: cover; }
+    background-image: url("images/background-two.jpg"); }
   .background-image.background-image__three {
-    background-image: url("images/background-three.jpg");
-    background-size: cover; }
+    background-image: url("images/background-three.jpg"); }
   .background-image.background-image__terms {
-    background-image: url("images/background-terms.jpg");
-    background-size: cover; }
+    background-image: url("images/background-terms.jpg"); }
 
 .tagline-block {
   height: 100%; }
@@ -1086,6 +1084,8 @@ body {
     margin: 0 auto; }
 
 @media (min-width: 960px) {
+  .block {
+    padding: 0px 40px; }
   .main-header .main-header__title {
     text-align: left; }
   .instruction-steps {
